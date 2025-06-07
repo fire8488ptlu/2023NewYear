@@ -1,0 +1,65 @@
+.CardVideoContainer{
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 250px;
+    /* -webkit-overflow-scrolling: touch;
+    overflow-y: scroll; */
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 40px;
+    row-gap:80px;
+    column-gap: 5px;
+}
+
+.CardVideoIframe{
+
+    justify-self: center;
+    width:320px;
+    height:200px;
+    grid-column-start: 1;
+    grid-column-end:3;
+    /* width:0; */
+    /* width: 0px;
+    height: 180px; */
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    border:none;
+}
+
+
+.CardVideoBtn1{
+    justify-self: center;
+    background-color: Transparent;
+    width: 125px;
+    border-radius: 20px;
+    border-color: #faab58;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 15px;
+    color:#faab58;
+    letter-spacing: 4px;
+}
+
+.CardVideoBtn1:active{
+    transform: scale(1.1);
+}
+
+
+.CardVideoBtn2{
+    justify-self: center;
+    background-color: Transparent;
+    width: 125px;
+    border-radius: 20px;
+    border-color: #faab58;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 15px;
+    color:#faab58;
+    letter-spacing: 4px;
+}
+
+.CardVideoBtn2:active{
+    transform: scale(1.1);
+}
+
